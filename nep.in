@@ -1,0 +1,15 @@
+type       2 C Cu
+version    4
+cutoff     6 5
+n_max      4 4
+basis_size 8 8
+l_max      4 2 1
+neuron     80
+lambda_1   0
+lambda_e   1
+lambda_f   1
+lambda_v   0.1
+batch      10000
+population 60
+generation 1000000
+zbl        2

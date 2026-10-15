@@ -23,14 +23,13 @@ Conditions](https://arxiv.org/abs/2610.18545).
 | [`final-models/seed_2028/nep.txt`](final-models/seed_2028/nep.txt) | Trained model M3. |
 | [`final-models/seed_2029/nep.txt`](final-models/seed_2029/nep.txt) | Trained model M4. |
 | [`final-models/seed_2030/nep.txt`](final-models/seed_2030/nep.txt) | Trained model M5. |
+| [`nep.in`](nep.in) | NEP training input file specifying model parameters and optimization settings. |
 | [`train.xyz`](train.xyz) | Development dataset containing 2,727 configurations with energies, forces and virials in extended XYZ format. |
 | [`LICENSE`](LICENSE) | MIT License. |
 
 Seeds 2026-2030 correspond to models M1-M5 in the paper. Each model used a
 geometry-grouped, stratified training/validation split of approximately 95:5 from
 the development dataset. `train.xyz` contains the full development set;
-model-specific split files and simulation inputs are not included in this
-repository.
 
 
 ## Citation
